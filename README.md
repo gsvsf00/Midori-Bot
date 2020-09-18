@@ -1,4 +1,15 @@
+
+<img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="Midori" src="https://cdn.discordapp.com/avatars/719733315090907176/fa9bc0b53a0274f70311449be07a8f92.png?size=256">  
+
+# Atlanta
+[![](https://img.shields.io/discord/706916588250726400.svg?logo=discord&colorB=7289DA)](https://discord.gg/maERGBd)
+[![](https://discordbots.org/api/widget/status/557445719892688897.svg)](https://discordbots.org/bot/557445719892688897)
+[![](https://img.shields.io/badge/discord.js-v12.0.0--dev-blue.svg?logo=npm)](https://github.com/discordjs)
+
 # Discord Music bot
+
+Midori-Bot is a open source Discord bot coded in JavaScript with [Discord.js](https://discord.js.org) by [gsv99](https://github.com/gsv99).  
+Feel free to add a star ⭐ to the repository to promote the project!
 
 A simple discord bot that helps you manage your server by providing useful commands like playing music or deleting text messages.
 
