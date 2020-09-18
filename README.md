@@ -3,7 +3,6 @@
 
 # Midori
 [![](https://img.shields.io/discord/706916588250726400.svg?logo=discord&colorB=7289DA)](https://discord.gg/maERGBd)
-[![](https://cdn.discordapp.com/avatars/719733315090907176/fa9bc0b53a0274f70311449be07a8f92.png)](https://discord.gg/maERGBd)
 [![](https://img.shields.io/badge/discord.js-v12.0.0--dev-blue.svg?logo=npm)](https://github.com/discordjs)
 
 # Discord Music bot
