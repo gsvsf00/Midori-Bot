@@ -1,14 +1,13 @@
 const { CommandoClient } = require('discord.js-commando');
+const path = require('path');
 const { Discord } = require('discord.js');
 const ytdl = require('ytdl-core');
-const path = require('path');
 const fs = require('fs');
 const { prefix, token, discord_owner_id } = require('./config.json');
 
 const client = new CommandoClient({
-	commandPrefix: '${prefix}',
-	owner: '${discord_owener_id}',
-	invite: 'https://discord.gg/maERGBd',
+  commandPrefix: prefix,
+  owner: discord_owner_id // value comes from config.json
 });
 
 client.registry
@@ -36,7 +35,7 @@ client.once('ready', () => {
 
 client.on('error', console.error);
 
-client.on('message', async message => {
+/*client.on('message', async message => {
   if(message.author.bot) return
   if(!message.content.startsWith(prefix)) return
 
@@ -44,6 +43,6 @@ client.on('message', async message => {
 
   if(message.content.startsWith('${prefix}play')){
   }
-});
+});*/
 
 client.login(token)
