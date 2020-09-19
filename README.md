@@ -7,7 +7,8 @@
 
 # Discord Music bot
 
-Midori-Bot is a open source from <a href="https://github.com/Zaetic/Nayoi"><img src="https://img.shields.io/static/v1?label=Github&message=Nayoi&color=ff69b4"></a> 
+This project is a open source from <a href="https://github.com/Zaetic/Nayoi"><img src="https://img.shields.io/static/v1?label=Github&message=Nayoi&color=ff69b4"></a> 
+
 Midori Discord bot coded in JavaScript with [Discord.js](https://discord.js.org)Modify by: [gsv99](https://github.com/gsv99).  
 Feel free to add a star ⭐ to the repository to promote the project!
 
