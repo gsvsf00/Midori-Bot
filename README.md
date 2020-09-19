@@ -7,13 +7,13 @@
 
 # Discord Music bot
 
-Midori-Bot is a open source Discord bot coded in JavaScript with [Discord.js](https://discord.js.org) by [gsv99](https://github.com/gsv99).  
+Midori-Bot is a open source from <a href="https://github.com/Zaetic/Nayoi"><img src="https://img.shields.io/static/v1?label=Github&message=Nayoi&color=ff69b4"></a> 
+Midori Discord bot coded in JavaScript with [Discord.js](https://discord.js.org)Modify by: [gsv99](https://github.com/gsv99).  
 Feel free to add a star ⭐ to the repository to promote the project!
 
 A simple discord bot that helps you manage your server by providing useful commands like playing music or deleting text messages.
 
-You can find the tutorial about building a discord music bot [here](https://www.youtube.com/playlist?list=PLVzaElkTvlQae8XJ0ujnEgz1GviufNx8h). 
-
+You can find the Original Soucer of the bot <a href="https://github.com/Zaetic/Nayoi"><img src="https://img.shields.io/static/v1?label=Github&message=Nayoi&color=ff69b4"></a> 
 ## Table of content
 
 * [Features](#features)
@@ -34,9 +34,27 @@ You can find the tutorial about building a discord music bot [here](https://www.
 
 ## Requirements
 
-- [Node](https://nodejs.org/en/)
-- [NPM](https://www.npmjs.com/)
-- [FFMPEG](https://www.ffmpeg.org/)
+## Dependências
+
+| Nome  | Tipo | Versão |
+| ------------- | ------------- | ------------- |
+| [Node.js](https://nodejs.org/en/) | JS  |12.17.0|
+| [Discord.js](https://discord.js.org/) | NPM  |12.3.1|
+| [Mongoose](https://www.npmjs.com/package/mongoose) | NPM  |5.10.2|
+| [Ms](https://www.npmjs.com/package/ms) | NPM  |2.1.2|
+| [Path](https://www.npmjs.com/package/path) | NPM  |0.12.7|
+| [Colors](https://www.npmjs.com/package/colors) | NPM  |1.4.0|
+| [Canvas](https://www.npmjs.com/package/canvas) | NPM  |2.6.1|
+| [Node-fetch](https://www.npmjs.com/package/node-fetch) | NPM  |2.6.0|
+| [Is-image](https://www.npmjs.com/package/is-image) | NPM  |3.0.0|
+| [Mathjs](https://www.npmjs.com/package/mathjs) | NPM  |7.2.0|
+| [Check-links](https://www.npmjs.com/package/check-links) | NPM  |1.1.8|
+| [Twitch-Api-v5](https://www.npmjs.com/package/twitch-api-v5) | NPM  |2.0.4|
+| [MongoDB](https://www.mongodb.com/) | DB  |3.8|
+| [Jikan](https://jikan.moe/) | API  |v3.4.0|
+| [Tenor](https://tenor.com/gifapi) | API  |v1.0.0|
+| [Twitch](https://dev.twitch.tv/) | API  |v5.0.0|
+| [OpenWeather](https://openweathermap.org/api) | API  |2.5|
 
 ## Getting started
 
