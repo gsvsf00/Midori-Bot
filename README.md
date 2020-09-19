@@ -65,7 +65,7 @@ First, make sure you have all the required tools installed on your local machine
 git clone https://github.com/gsv99/Midori-Bot.git
 
 # Enter into the directory
-cd discord-bot/
+cd Midori-Bott/
 
 # Install the dependencies
 npm install
