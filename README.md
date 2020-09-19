@@ -28,10 +28,13 @@ You can find the Original Soucer of the bot <a href="https://github.com/Zaetic/N
 
 - Ban
 - Userinfo
+- Purge text messages
+
+## Next Att's
 - Play music
 - Skip songs
 - Stop music
-- Purge text messages
+- Volume
 
 ## Requirements
 
