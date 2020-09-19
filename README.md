@@ -9,7 +9,7 @@
 
 This project is a open source from <a href="https://github.com/Zaetic/Nayoi"><img src="https://img.shields.io/static/v1?label=Github&message=Nayoi&color=ff69b4"></a> 
 
-Midori Discord bot coded in JavaScript with [Discord.js](https://discord.js.org)Modify by: [gsv99](https://github.com/gsv99).  
+Midori Discord bot coded in JavaScript with [Discord.js](https://discord.js.org) Modify by: [gsv99](https://github.com/gsv99).  
 Feel free to add a star ⭐ to the repository to promote the project!
 
 A simple discord bot that helps you manage your server by providing useful commands like playing music or deleting text messages.
