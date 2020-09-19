@@ -1,15 +1,49 @@
-const Discord = require('discord.js');
-const client = new Discord.Client();
-const { prefix, token } = require('./config.json');
+const { CommandoClient } = require('discord.js-commando');
+const { Discord } = require('discord.js');
+const ytdl = require('ytdl-core');
+const path = require('path');
+const fs = require('fs');
+const { prefix, token, discord_owner_id } = require('./config.json');
 
-client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
+const client = new CommandoClient({
+	commandPrefix: '${prefix}',
+	owner: '${discord_owener_id}',
+	invite: 'https://discord.gg/maERGBd',
 });
 
-client.on('message', msg => {
-  if (msg.content === 'ping') {
-    msg.reply('Pong!');
+client.registry
+	.registerDefaultTypes()
+	.registerGroups([
+    ['music', 'Music Command Group'],
+    ['gifs', 'Gif Command Group'],
+    ['other', 'random types of commands group'],
+    ['guild', 'guild related commands']
+	])
+  .registerDefaultCommands({
+    eval: false,
+    prefix: false,
+    commandState: false
+  })
+	.registerCommandsIn(path.join(__dirname, 'commands'));
+
+client.once('ready', () => {
+  console.log('Ready!');
+  client.user.setActivity(`${prefix}help`, {
+    type: 'WATCHING',
+    url: 'https://github.com/gsv/Midori-Bot'
+  });
+});
+
+client.on('error', console.error);
+
+client.on('message', async message => {
+  if(message.author.bot) return
+  if(!message.content.startsWith(prefix)) return
+
+  const args = message.content.substring(prefix.length).split(" ")
+
+  if(message.content.startsWith('${prefix}play')){
   }
 });
 
-client.login('token');
+client.login(token)
