@@ -6,7 +6,7 @@ module.exports.run = (bot, message, args, lang) => {
         const embed = new MessageEmbed()
         .setThumbnail("https://github.com/Zaetic/Nayoi/blob/master/images/nayoi/nayoiHappy.gif?raw=true")
         .setTitle(lang.embedTitle)
-        .setDescription(lang.embedDescription.replace(/{avatarURL}/g, "https://discordapp.com/oauth2/authorize?client_id=561319501317144576&scope=bot&permissions=8"))
+        .setDescription(lang.embedDescription.replace(/{avatarURL}/g, "https://discordapp.com/oauth2/authorize?client_id=719733315090907176&scope=bot&permissions=8"))
         .setTimestamp()
         .setColor(bot.baseColor)
         

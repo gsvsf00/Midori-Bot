@@ -10,7 +10,7 @@ const { twitchID } = require("../botconfig.json");
 api.clientID = twitchID;
 
 module.exports = async (bot) => {
-    bot.user.setActivity(`nayoi.com | n!help`, {type: "PLAYING"});
+    bot.user.setActivity(`mi$help | Add on your server`, {type: "PLAYING"});
     for await (let guild of bot.guilds.cache.array()) {
 
         let lang = undefined;

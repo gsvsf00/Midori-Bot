@@ -114,7 +114,7 @@ module.exports =
                 +"Caso esteja buscando pela lista de comandos digite `{prefix}commands`\n"
                 +"Espero que encontre o que procura :heart:",
                 embedField2_title: "Outros",
-                embedField2_text: "Para mais informações acesse: http://nayoi.com",
+                embedField2_text: "Para mais informações acesse: http://gitub.com/gsv99/Midori-Bot",
             },
             help: {
                 description: "Traz informações sobre comandos",
