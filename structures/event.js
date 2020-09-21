@@ -11,5 +11,5 @@ module.exports.run = (bot) => {
         bot.on(eventName, event.bind(null, bot));
     }
 
-    console.log(`[Events]`.brightBlue + ` ${eventFiles.length} eventos carregados`.blue);
+    console.log(`[Events]`.bgWhite + ` ${eventFiles.length} eventos carregados`.blue);
 }

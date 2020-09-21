@@ -12,7 +12,7 @@ bot.lists = new Collection();
 bot.locales = new Collection();
 bot.prefix = prefix;
 bot.baseColor = "#ff8ff2";
-bot.database = require('./utils/database.js');
+bot.mongoose = require('./utils/mongoose.js');
 bot.langs = require('./utils/langs');
 
 const commands = require("./structures/command");
@@ -27,4 +27,5 @@ lists.run(bot);
 const langs = require("./structures/lang");
 langs.run(bot);
 
+bot.mongoose.init();
 bot.login(token);

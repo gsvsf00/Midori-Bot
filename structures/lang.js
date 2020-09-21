@@ -9,5 +9,5 @@ module.exports.run = (bot) => {
         bot.locales.set(prop.name, prop);
     }
 
-    console.log(`[Lang]`.brightBlue + ` ${bot.locales.size} langs carregadas`.blue);
+    console.log(`[Lang]`.bgWhite + ` ${bot.locales.size} langs carregadas`.blue);
 }
